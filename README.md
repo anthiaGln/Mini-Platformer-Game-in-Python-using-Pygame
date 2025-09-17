@@ -20,3 +20,6 @@ Prerequisites
 Python 3.10+
 
 Pygame
+
+
+The project is still in progress
