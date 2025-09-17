@@ -51,7 +51,7 @@ def main(window):
         clock.tick(FPS)
 
         for event in pygame.event.get():
-            if event.type == pygame.QUIT:  # when you click "X"
+            if event.type == pygame.QUIT:  
                 run = False
                 break
         
@@ -61,4 +61,5 @@ def main(window):
     pygame.quit()
     sys.exit()
 if __name__ == "__main__":
+
     main(window)
